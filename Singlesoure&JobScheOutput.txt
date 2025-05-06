@@ -1,0 +1,39 @@
+single source Output
+
+Neighbor with lowest heuristic value is selected
+Enter the number of edges: 5
+Enter edge (source destination weight): A B 1
+Enter edge (source destination weight): A C 2
+Enter edge (source destination weight): B D 4
+Enter edge (source destination weight): C D 3
+Enter edge (source destination weight): D G 5
+
+Enter heuristic values (node heuristic):
+Heuristic for A: 7
+Heuristic for B: 6
+Heuristic for C: 4
+Heuristic for D: 2
+Heuristic for G: 0
+
+Enter the source node: A
+Enter the goal node: G
+
+Job schedulings output
+
+Jobs with higher profit and lower deadline will have a higher heuristic
+A high heuristic value suggests the job is more urgent and more rewarding
+
+Enter the number of jobs: 4
+Enter the profit of job 1: 100
+Enter the name of job 1: A
+Enter the deadline of job 1: 2
+Enter the profit of job 2: 10
+Enter the name of job 2: B
+Enter the deadline of job 2: 1
+Enter the profit of job 3: 15
+Enter the name of job 3: C
+Enter the deadline of job 3: 2
+Enter the profit of job 4: 27
+Enter the name of job 4: D
+Enter the deadline of job 1: 1
+

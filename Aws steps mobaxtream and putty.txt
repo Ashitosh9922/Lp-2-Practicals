@@ -1,0 +1,25 @@
+EC2 Instance
+Lauch Instance
+Name
+Select Amazon Linux/Ubuntu
+t3 micro selected hain ki nahi
+create new key-value pair
+lauch instance
+
+Select instance
+copy ip address for mobaxtream
+
+mobaxtream session->ssh-->Remote host pe paste the copied Ip address
+username-->ec2-user
+Advanced SSH Settings--->Use private key tick -->use downloaded .pem key-value pair-->OK 
+
+Done !!
+
+
+For Putty 
+Download Putty from officical website
+Open Putty gen first
+files->load private key->1.Select * all files files first then .pem key-value pair-->Open-->Save private key
+-->Yes-->name the file-->save  (.ppk file)
+Open putty -->paste ip address -->SSH-->AUTH-->Credentials-->Browse-->.ppk file that is created in putty gen
+--Open-->Login as ec2-user in terminal
