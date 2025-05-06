@@ -1,0 +1,89 @@
+Salesforce APP
+
+1)salesforce login
+2)search app
+3)App manager
+4)New Lightning app--fill form
+next
+5)navigation items add==>Authorization from text,categories,contacts,content,Duplicate Record test,Quick test,Recommediations
+6)User Profiles---(VImp)==>add==> System Administrator
+7)save and finish
+8)Created APP pe click krke bhi dekh sakte ho
+9)You can search on App laucher to see App
+
+
+Apex class
+1)setup click 
+2)Apex Classes
+3)Click on Developer Console
+4)new class
+5)Write the code
+6)save
+7)Debug-->Anonymous window
+8)Enter Apex Code -->Execute
+9)Click on Debug Only to see Result
+
+
+
+
+
+salesforce 1
+
+Integer x = 10;
+Integer y = 5;
+
+System.debug('Addition: ' + SimpleCalculator.add(x, y));
+System.debug('Subtraction: ' + SimpleCalculator.subtract(x, y));
+System.debug('Multiplication: ' + SimpleCalculator.multiply(x, y));
+System.debug('Division: ' + SimpleCalculator.divide(x, y));
+
+
+
+salesforce 2
+
+Integer inputValue = 25;  // Initial value
+Integer incrementedValue = IncrementalFunction.incrementBy10(inputValue); // Call the method
+
+System.debug('Original Value: ' + inputValue);  // Print original value
+System.debug('Incremented Value: ' + incrementedValue);  // Print incremented value
+
+
+
+
+Salesforce 1
+public class SimpleCalculator {
+
+    // Addition method
+    public static Integer add(Integer a, Integer b) {
+        return a + b;
+    }
+
+    // Subtraction method
+    public static Integer subtract(Integer a, Integer b) {
+        return a - b;
+    }
+
+    // Multiplication method
+    public static Integer multiply(Integer a, Integer b) {
+        return a * b;
+    }
+
+    // Division method with zero check
+    public static Decimal divide(Integer a, Integer b) {
+        if (b == 0) {
+            System.debug('Error: Division by zero is not allowed.');
+            return null;
+        }
+        return Decimal.valueOf(a) / b;
+    }
+}
+
+
+Salesforce 2
+public class IncrementalFunction {
+    
+    // This method increases the value by 10
+    public static Integer incrementBy10(Integer value) {
+        return value + 10;
+    }
+}
