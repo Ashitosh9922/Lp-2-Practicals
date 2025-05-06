@@ -1,0 +1,19 @@
+salesforce 1
+
+Integer x = 10;
+Integer y = 5;
+
+System.debug('Addition: ' + SimpleCalculator.add(x, y));
+System.debug('Subtraction: ' + SimpleCalculator.subtract(x, y));
+System.debug('Multiplication: ' + SimpleCalculator.multiply(x, y));
+System.debug('Division: ' + SimpleCalculator.divide(x, y));
+
+
+
+salesforce 2
+
+Integer inputValue = 25;  // Initial value
+Integer incrementedValue = IncrementalFunction.incrementBy10(inputValue); // Call the method
+
+System.debug('Original Value: ' + inputValue);  // Print original value
+System.debug('Incremented Value: ' + incrementedValue);  // Print incremented value
